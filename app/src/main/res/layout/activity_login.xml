@@ -53,37 +53,4 @@
             android:layout_height="wrap_content"/>
 
     </LinearLayout>
-
-
-    <TextView
-        android:text="Forget Password?"
-        android:layout_marginTop="80dp"
-        android:layout_gravity="center"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:orientation="horizontal">
-
-        <TextView
-            android:text="Don't have an account?"
-            android:layout_marginTop="10dp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
-
-        <Button
-            android:id="@+id/btnSignUp"
-            android:text="Sign-Up"
-            android:textSize="10sp"
-            android:layout_width="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginTop="10dp"
-            android:layout_marginHorizontal="10dp"
-            android:layout_height="wrap_content"/>
-
-
-    </LinearLayout>
 </LinearLayout>

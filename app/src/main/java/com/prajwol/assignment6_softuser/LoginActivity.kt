@@ -31,7 +31,7 @@ class LoginActivity : AppCompatActivity(),View.OnClickListener {
         when (v?.id) {
             btnSignIn.id -> {
                 if (ifValidate()) {
-                    if (etUsername.text.toString() == "admin" && etPassword.text.toString() == "admin") {
+                    if (etUsername.text.toString() == "prajwol" && etPassword.text.toString() == "1234") {
                         Intent(this, MainActivity::class.java).also {
                             startActivity(it)
                         }
